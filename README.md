@@ -2,7 +2,10 @@
 
 ## Cron job on Linux
 ```
-Cron is the Linux task scheduler that is responsible for making sure scripts run at their specified times. Cron is often used for things like, log rotation, backup scripts, updating file indexes, and running custom scripts. In the event a task runs into problems or errors Cron generally tries to email the local administrator of the machine. This means it tries to send an email to itself instead of an “internet accessible” email address like, ‘user@gmail.com’.
+Cron is the Linux task scheduler that is responsible for making sure scripts run at their specified times.
+Cron is often used for things like, log rotation, backup scripts, updating file indexes, and running custom scripts.
+In the event a task runs into problems or errors Cron generally tries to email the local administrator of the machine.
+This means it tries to send an email to itself instead of an “internet accessible” email address like, ‘user@gmail.com’.
 
 We can change this default behavior by changing the MAILTO variable.
 
