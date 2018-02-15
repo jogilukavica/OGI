@@ -53,7 +53,10 @@ night.
 ## Script.sh
 
 ```
-Simplest Script as possible that curl GitHub API and read a commits for a user. Then exports everything in to CommitHistory.txt. The content is cat from generated file CommitHistory.txt, Then content from CommitHistory.txt is included into email body. Then email is sent to specified email address, or addresses..
+Simplest Script as possible that curl GitHub API and read a commits for a user.
+Then exports everything in to CommitHistory.txt. The content is cat from generated file CommitHistory.txt,
+Then content from CommitHistory.txt is included into email body.
+Then email is sent to specified email address, or addresses..
 
 PS
 There should be SMTP server all ready set up on Server.
